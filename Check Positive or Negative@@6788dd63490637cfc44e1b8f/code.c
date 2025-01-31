@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
     int x;
     printf("");
@@ -7,11 +6,11 @@ int main(){
     if(x>0){
         printf("Positive");
     }
-    else if(x<0){
-        printf("Negative")
+    else if (x<0){
+        printf("Negative");
     }
     else{
-        printf("Zero")
+        printf("Zero");
     }
     return 0;
 }
