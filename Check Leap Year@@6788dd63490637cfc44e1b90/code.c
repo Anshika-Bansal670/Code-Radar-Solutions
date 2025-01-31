@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
     int x;
     printf("");
@@ -10,5 +9,5 @@ int main(){
     else{
         printf("Not a Leap Year");
     }
-    return o;
+    return 0;
 }
