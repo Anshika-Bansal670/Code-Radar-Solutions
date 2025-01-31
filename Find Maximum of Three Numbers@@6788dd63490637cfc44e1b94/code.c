@@ -14,7 +14,7 @@ int main(){
         printf("%d",c);
     }
     else{
-        printf("equal")
+        printf("equal");
     }
     return 0;
 }
