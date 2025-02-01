@@ -2,12 +2,12 @@
 
 #include<ctype.h>
 int main(){
-    char input;
-    scanf("%c",input);
-    if((input=='a')||(input=='e')||(input=='i')||(input=='o')||(input=='u')||(input=='A')||(input=='E')||(input=='I')||(input=='O')||(input=='U')){
+    char ch;
+    scanf("%c",ch);
         printf("Vowel");
+    if((ch=='a')||(ch=='e')||(ch=='i')||(ch=='o')||(ch=='u')||(ch=='A')||(ch=='E')||(ch=='I')||(ch=='O')||(ch=='U')){
     }
-    else if((input>='a')&&(input<='z')||(input>='A')&&(input<='Z')){
+    else if((ch>='a')&&(ch<='z')||(ch>='A')&&(ch<='Z')){
         printf("Consonant");
     }
     else if(isdigit(input)){
