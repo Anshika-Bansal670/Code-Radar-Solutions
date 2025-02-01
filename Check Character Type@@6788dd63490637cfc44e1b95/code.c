@@ -13,8 +13,6 @@ int main(){
     else if(isdigit(input)){
         printf("Digit");
     }
-    else{
-        printf("Special Character");
-    }
+
     return 0;
 }
