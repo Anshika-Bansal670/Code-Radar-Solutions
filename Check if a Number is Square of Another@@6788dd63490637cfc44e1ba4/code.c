@@ -5,7 +5,7 @@ int main(){
     printf("");
     scanf("%d%d",&a,&b);
     power=pow(b,2);
-    if(a==power){
+    if(a=='power'){
         printf("Yes");
     }
     else{
