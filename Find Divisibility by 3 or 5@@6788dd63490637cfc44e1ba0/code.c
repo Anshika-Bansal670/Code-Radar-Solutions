@@ -4,14 +4,14 @@ int main(){
     int a;
     printf("");
     scanf("%d",&a);
-    if(a%3==0){
-        printf("Divisible by 3");
+    if((a%3==0)&&(a%5==0)){
+        printf("Divisible by Both");
     }
     else if(a%5==0){
         printf("Divisible by 5");
     }
-    else if((a%3==0)&&(a%5==0)){
-        printf("Divisible by Both");
+    else if(a%3==0){
+        printf("Divisible by 3");
     }
     return 0;
 }
