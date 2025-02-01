@@ -2,11 +2,10 @@
 #include<math.h>
 
 int main(){
-    int a,b,power;
+    int a,b;
     printf("");
     scanf("%d%d",&a,&b);
-    power=(int)pow(b,2);
-    if(a==power){
+    if(a==(int)pow(b,2)){
         printf("Yes");
     }
     else{
